@@ -12,7 +12,7 @@ spring:
 zipkin:
   collector:
     rabbitmq:
-      addresses: paascloud-mq-rabbit:5672
+      addresses: 106.12.185.81:5672
       username: guest
       password: guest
       queue: zipkin
