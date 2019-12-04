@@ -13,13 +13,13 @@ spring:
     proxy-target-class: true
     auto: true
   rabbitmq:
-    host: paascloud-mq-rabbit
+    host: 106.12.185.81
     port: 5672
     username: guest
     password: guest
   redis:
-    host: paascloud-db-redis
-    password: paascloud@redis
+    host: 106.12.185.81
+    password:
     port: 6379
     timeout: 0
   datasource:
@@ -136,4 +136,4 @@ paascloud:
       pcPath: /data/file/qrCode/alipay
       qiniuPath: alipay/QRCode/
   zk:
-    zkAddressList: paascloud-provider-zk:2181
+    zkAddressList: 106.12.185.81:2181
