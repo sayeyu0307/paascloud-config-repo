@@ -35,8 +35,8 @@ security:
     client:
       clientId: paascloud-client-uac
       clientSecret: paascloudClientSecret
-      access-token-uri: http://123.57.95.4:7979/uac/oauth/token
-      user-authorization-uri: http://123.57.95.4:7979/uac/oauth/authorize
+      access-token-uri: http://127.0.0.1:7979/uac/oauth/token
+      user-authorization-uri: http://127.0.0.1:7979/uac/oauth/authorize
     resource:
       id: paascloud-resource-uac
       filter-order: 3
