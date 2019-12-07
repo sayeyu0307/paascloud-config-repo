@@ -19,7 +19,7 @@ zuul:
       path: /uac/**
       sensitiveHeaders:
 #      strip-prefix: false
-      service-id: 106.12.185.81
+      service-id: paascloud-provider-uac
       ribbon:
         eager-load:
           enabled: true
