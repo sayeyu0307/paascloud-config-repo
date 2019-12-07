@@ -19,7 +19,7 @@ spring:
     password: guest
   redis:
     host: 106.12.185.81
-    password:
+    password: admin@123
     port: 6379
     timeout: 0
   datasource:
