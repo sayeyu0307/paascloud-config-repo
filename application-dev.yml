@@ -120,7 +120,7 @@ paascloud:
       regionId: cn-beijing
       endpoint:
       endpointName: cn-beijing
-      product: 'your sms product's
+      product: 'your sms product'
       domain: dysmsapi.aliyuncs.com
   qiniu:
     key:
