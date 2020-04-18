@@ -57,7 +57,7 @@ paascloud:
       enable: false
       reliableMessageConsumer: false
       reliableMessageProducer: true
-      namesrvAddr: paascloud-mq-rocket:9876
+      namesrvAddr: 106.12.185.81:9876
       instanceName: paascloud-provider-tpc
       producerGroup: PID_TPC
   oauth2:
