@@ -7,7 +7,7 @@ spring:
   cache:
     cache-names: mdc-cache
   datasource:
-    url: jdbc:mysql://106.12.185.81:3306/paascloud_mdc?characterEncoding=utf8&useSSL=false
+    url: jdbc:mysql://127.0.0.1:3306/paascloud_mdc?characterEncoding=utf8&useSSL=false
 
 liquibase:
   change-log: classpath:liquibase/index.xml
@@ -55,7 +55,7 @@ paascloud:
     interceptor:
       enable: true
   zk:
-    zkAddressList: 106.12.185.81:2181
+    zkAddressList: 127.0.0.1:2181
   aliyun:
     rocketMq:
       enable: false

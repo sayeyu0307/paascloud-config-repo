@@ -13,13 +13,13 @@ spring:
     proxy-target-class: true
     auto: true
   rabbitmq:
-    host: 106.12.185.81
+    host: 127.0.0.1
     port: 5672
     username: guest
     password: guest
   redis:
-    host: 106.12.185.81
-    password:
+    host: 127.0.0.1
+    password: admin@123
     port: 6379
     timeout: 0
   datasource:
@@ -120,7 +120,7 @@ paascloud:
       regionId: cn-beijing
       endpoint:
       endpointName: cn-beijing
-      product: 'your sms product'
+      product: 'your sms product's
       domain: dysmsapi.aliyuncs.com
   qiniu:
     key:
@@ -136,4 +136,4 @@ paascloud:
       pcPath: /data/file/qrCode/alipay
       qiniuPath: alipay/QRCode/
   zk:
-    zkAddressList: 106.12.185.81:2181
+    zkAddressList: 127.0.0.1:2181
